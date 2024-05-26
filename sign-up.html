@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body{
+            height: 100vh;
+            align-items: center;
+            display: flex;
+            justify-content: center;
+            background-image: url(https://images.pexels.com/photos/255379/pexels-photo-255379.jpeg?cs=srgb&dl=pexels-padrinan-255379.jpg&fm=jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+        .CONTAINER{
+            width: 350px;
+            padding: 20px;
+            border: 1px solid rgb(25, 226, 216);
+            box-shadow: 0px 0px 10px aqua;
+            border-radius: 5px;
+        }
+        input{
+            width: 100%;
+            height: 40px;
+            margin-top: 10px;
+            padding: 7px;
+            outline: none;
+            border: none;
+            background-color: whitesmoke;
+            margin: 4px 0px;
+        }
+        .written-box input{
+            width: 100%;
+            height: 100%;
+            background: transparent;
+            border: none;
+            outline: none;
+            border: 2px solid rgba(83, 80, 80, 0.2);
+            border-radius: 40px;
+        }
+        .written-box input::placeholder{
+            color: rgb(7, 7, 7);
+        }
+        button{
+            margin-top: 10px;
+            border: 1px;
+            border-radius: 5px;
+            padding: 7px 25px ;
+            background-color: tomato;
+            color: white;
+            cursor: pointer;        }
+        button:hover{
+            background-color: red;
+        }
+.sing-up{
+    text-align: center;
+}
+    </style>
+</head>
+<body>
+    <div class="CONTAINER">
+        <div class="sing-up">
+            <h1>SIGN-UP</h1>
+        </div>
+      <div class="written-box">
+        <input type="text" placeholder="name" required>
+        <input type="email" placeholder="email" required>
+        <input type="password" placeholder="password" required>
+        <input type="password" placeholder="conform password" required>
+      </div>
+        <button type="submit">sign up</button>
+    </div>
+</body>
+</html>

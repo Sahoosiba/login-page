@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login pagee</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body{
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-image: url(https://images.pexels.com/photos/255379/pexels-photo-255379.jpeg?cs=srgb&dl=pexels-padrinan-255379.jpg&fm=jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+        }
+        
+        .container{
+            background: transparent;
+            display: flex;
+            flex-direction: column;
+            width: 300px;
+            padding: 15px;
+            border: 1px solid white;
+            border-radius: 5px;
+        }
+        input{
+            margin: 4px 0px;
+            height: 35px;
+            padding: 7px;
+        }
+        button{
+            height: 35px;
+            margin: 5px 0px;
+            background-color: aqua;
+            border: none;
+            border-radius: 5px;
+            color: #333;
+            
+        }
+        .sign{
+            text-align: center;
+        }
+        .login{
+            text-align: center;
+        }
+        .written-box input{
+            width: 100%;
+            height: 100%;
+            background: transparent;
+            border: none;
+            outline: none;
+            border: 2px solid rgba(83, 80, 80, 0.2);
+            border-radius: 40px;
+        }
+        .written-box input::placeholder{
+            color: rgb(7, 7, 7);
+        }
+        button:hover{
+            background-color: aquamarine;
+        }
+
+    </style>
+    
+</head>
+<body>
+        <div class="container">
+            <div class="login">
+                <h1>LOGIN</h1>
+            </div>
+            <div class="written-box">
+                <input type="username " placeholder="username">
+            <input type="password" placeholder="password">
+            </div>
+            <a href="xyz">forget password?</a>
+            <button type="submit">login</button>
+            <div class="sign">
+                <p>do not have account? </p>
+            <a href="sign-up.html">sign up</a>
+            </div>
+        </div>
+</body>
+</html>
